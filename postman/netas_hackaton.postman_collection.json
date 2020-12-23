@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "1fbc997c-3d99-4953-b851-47a84cc1c1f0",
+		"name": "netas_hackaton",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "predict",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/?age=24&gender=1&air_pollution=4&alcohol=1&dusty_allergy=3&chronic_lung_disease=1&balanced_diet=8&obesity=2&smoking=8&chest_pain=4&coughing_of_blood=1&fatigue=8&weight_loss=6&shortness_of_breath=5&wheezing=5&swallowing_difficulty=4&clubbing_of_finger_nails=4&frequent_cold=7&dry_cough=2&snoring=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "24"
+						},
+						{
+							"key": "gender",
+							"value": "1"
+						},
+						{
+							"key": "air_pollution",
+							"value": "4"
+						},
+						{
+							"key": "alcohol",
+							"value": "1"
+						},
+						{
+							"key": "dusty_allergy",
+							"value": "3"
+						},
+						{
+							"key": "chronic_lung_disease",
+							"value": "1"
+						},
+						{
+							"key": "balanced_diet",
+							"value": "8"
+						},
+						{
+							"key": "obesity",
+							"value": "2"
+						},
+						{
+							"key": "smoking",
+							"value": "8"
+						},
+						{
+							"key": "chest_pain",
+							"value": "4"
+						},
+						{
+							"key": "coughing_of_blood",
+							"value": "1"
+						},
+						{
+							"key": "fatigue",
+							"value": "8"
+						},
+						{
+							"key": "weight_loss",
+							"value": "6"
+						},
+						{
+							"key": "shortness_of_breath",
+							"value": "5"
+						},
+						{
+							"key": "wheezing",
+							"value": "5"
+						},
+						{
+							"key": "swallowing_difficulty",
+							"value": "4"
+						},
+						{
+							"key": "clubbing_of_finger_nails",
+							"value": "4"
+						},
+						{
+							"key": "frequent_cold",
+							"value": "7"
+						},
+						{
+							"key": "dry_cough",
+							"value": "2"
+						},
+						{
+							"key": "snoring",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
