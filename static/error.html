@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+
+<h1 style="color: red">Please specify feature matrix values.</h1>
+<h4 style="color: blue">Sample usage:</h4>
+<code id="code-block">
+    Please allow js
+</code>
+</body>
+
+<script type="text/javascript">
+    let codeBLock = document.getElementById("code-block")
+    const query = "?age=24&gender=1&air_pollution=4&alcohol=1&dusty_allergy=3&chronic_lung_disease=1&balanced_diet=8&obesity=2&smoking=8&chest_pain=4&coughing_of_blood=1&fatigue=8&weight_loss=6&shortness_of_breath=5&wheezing=5&swallowing_difficulty=4&clubbing_of_finger_nails=4&frequent_cold=7&dry_cough=2&snoring=4"
+
+    codeBLock.innerHTML = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + query
+
+
+</script>
+</html>
